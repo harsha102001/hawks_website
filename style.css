@@ -1,0 +1,3210 @@
+/* Header */
+*{
+  margin:0;
+  
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.indexbody{
+  background-color: #faecf2;
+}
+header {
+  position:fixed;
+   top: 0; /* Important! */
+  left: 0;
+  width: 100%;
+  z-index: 10; 
+ 
+}
+.navbar{
+  width: 100%;
+  height: 100px;
+  background-color:#8086b5;
+  display: flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.navlogo{
+  width: 30%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left:50px ; */
+}
+
+.logobox{
+  width: 37.5%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo{
+  background-image: url("images/hawks_logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
+.namebox{
+  display: flex;
+  width:62.5%;
+  height:100px;
+  /* justify-content: center; */
+  align-items: center;
+}
+.cb-name{
+  color:white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.nav-options{
+  width: 70%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin-left: 80px;
+
+}
+
+.nav-options ul {
+  display: flex;
+  list-style: none;  /* Removes bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.nav-options li {
+  margin-right: 40px; /* Optional spacing between items */
+}
+
+.nav-options a{
+  text-decoration: none;
+  color: white; /* Change to your preferred color */
+  font-size: 22px;
+  font-weight: bold;
+  display: block;
+  cursor: pointer;
+}
+.nav-options a:hover{
+  color: red;
+}
+
+
+/* next section after header */
+.mainpicture{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 1000px;
+  background-image: url("images/basballbackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  height: 900px;
+  background-color: rgba(249, 248, 248, 0.3); /* 0.3 = 30% white overlay */
+}
+
+.welcomebox{
+  margin-top:80px ;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: last baseline;
+  z-index: 2;
+
+}
+
+.welcometext{
+  color: red;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.afthedlogo{
+  margin-top: 20px;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  z-index: 2;
+}
+.alogo{
+  background-image: url("images/hawks_logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+}
+
+.slogan{
+  width:100%;
+  height: 200px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  z-index:2;
+  justify-content: center;
+  align-items: center;
+}
+
+.slogan h1{
+  font-size: 50px;
+  color: white;
+  font-weight: bolder;
+}
+
+
+.indextournamentouterbox{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  border: 2px black;
+  margin-top: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.tournamentlogobox{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: linear-gradient(to right, rgb(243, 184, 184), rgb(176, 232, 243));
+}
+
+.mdbalogo{
+  width: 90px;
+  height: 90px;
+  background-image: url(images/mdbalogo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tournamentlogo{
+  width: 120px;
+  height: 120px;
+  background-image: url(images/tourlogo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hawkslogo{
+  width: 90px;
+  height: 90px;
+  background-image: url(images/hawks_logo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tournamentnameoutbox{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to right, rgb(243, 184, 184), rgb(176, 232, 243));
+}
+
+.tournamentnamebox{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tournamentnamebox h1{
+  font-size: 50px;
+  color: red;
+}
+
+.tournamentclick{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.clickbutton {
+  padding: 10px 20px;
+  background-color: rosybrown;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  animation: glowMulti 2.5s infinite alternate;
+}
+
+@keyframes glowMulti {
+  0% {
+    box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+  }
+  25% {
+    box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+  }
+  50% {
+    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00;
+  }
+  75% {
+    box-shadow: 0 0 10px #ffff00, 0 0 20px #ffff00;
+  }
+  100% {
+    box-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000;
+  }
+}
+
+
+
+/* index about section */
+
+.indexaboutclub{
+  width: 100%;
+  height:550px;
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(238, 240, 241)
+
+}
+
+.clubimagebox{
+  width: 570px;
+  height: 500px;
+  display: flex;
+}
+.clubimage{
+  width: 570px;
+  height: 500px;
+  background-image: url("images/clubimage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.aboutclubbox{
+  width: 570px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutclubbox h1{
+  font-size: 45px;
+}
+
+.aboutclubbox p{
+  font-size: 25px;
+  line-height: 2;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+}
+.btn:hover {
+  background-color: #0056b3;
+}
+
+
+.indexgalleryouterbox{
+  width: 100%;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  background-color: white
+}
+
+.indexgalleryinner1{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+.indexgalleryinner2{
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.indexgalleryphotoboxouter{
+  width: 80%;
+  height: 350px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  position: relative;
+}
+
+.gallery-track {
+  display: flex;
+  width: calc(8 * 25%); /* 8 images total, each 25% of container width */
+  animation: slideGallery 10s linear infinite;
+}
+
+
+.indexgalleryphotobox1{
+  width: 25%;
+  height: 350px;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 4px solid white;
+  border-top: 4px solid white;
+  display: flex;
+
+}
+
+.indexgalleryphotobox2{
+  width: 25%;
+  height: 350px;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 4px solid white;
+  border-top: 4px solid white;
+  display: flex;
+
+}
+
+.indexgalleryphotobox3{
+  width: 25%;
+  height: 350px;
+   border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 4px solid white;
+  border-top: 4px solid white;
+  display: flex;
+
+}
+
+.indexgalleryphotobox4{
+  width: 25%;
+  height: 350px;
+   border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 4px solid white;
+  border-top: 4px solid white;
+  display: flex;
+
+}
+
+.indgalphoto1{
+  width: 100%;
+  height: 350px;
+  background-image: url(images/image5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.indgalphoto2{
+  width: 100%;
+  height: 350px;
+  background-image: url(images/image2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.indgalphoto3{
+  width: 100%;
+  height: 350px;
+  background-image: url(images/image3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.indgalphoto4{
+  width: 100%;
+  height: 350px;
+  background-image: url(images/image4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+
+.gallery-track > div {
+  width: 25%; /* ensures only 4 images fill the container at once */
+  height: 350px;
+  border: 2px solid white;
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+}
+
+
+ @keyframes slideGallery {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); } /* Slide half the track (4 out of 8) */
+} 
+
+
+.indexgalleryinner3{
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: last baseline;
+}
+
+
+
+/* footer section */
+
+
+.foot-panel1{
+  /* margin-top: 20px; */
+  background-color:#222f3d;
+  color:white;
+  height:300px;
+  display:flex;
+  justify-content:space-evenly;
+}
+
+ul{
+  margin-top:20px;
+}
+
+ul a{
+  display:block;
+  font-size:16px;
+  margin-top:10px;
+  margin-left: 20px;
+  color:#dddddd;
+  line-height: 1.5;
+}
+ul p{
+    font-size:16px;
+    line-height: 2;
+}
+ul h4{
+  margin-left: 12px;
+  font-size: 18px;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  padding: 20px;
+  background-color: #222f3d;
+  border-top: 1px solid white;
+}
+
+.social-link {
+  margin-left: 10px;
+  color: white; /* Instagram pink */
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.social-link:hover {
+  color: rgb(230, 53, 112); /* Darker pink on hover */
+}
+
+
+
+/* About section */
+
+.about-box{
+  margin-top: 100px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items:center;
+  color: white;
+  background-color: #76bf86;
+  font-size: 35px;
+}
+
+.about-name{
+  margin-left:100px ;
+}
+
+.aboutaboutclub{
+  width: 1413px;
+  height:800px;
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-evenly;
+
+}
+
+.aboutaboutclubbox{
+  width: 570px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.aboutaboutclubbox h1{
+  font-size: 45px;
+}
+
+.aboutaboutclubbox p{
+  font-size: 25px;
+  line-height: 1.7;
+}
+
+.clubmission {
+  width: 1413px;
+  height: auto; /* Let height adjust to content */
+  display: flex;
+  flex-direction: column;
+  padding-left: 80px; /* Balanced padding (top-bottom 20, left-right 40) */
+  box-sizing: border-box; /* Important to prevent overflow */
+  overflow-wrap: break-word; /* Ensures text wraps */
+}
+
+.clubmission h1{
+  font-size: 45px;
+}
+.clubmission p{
+  font-size: 25px;
+  line-height: 1.7;
+}
+
+.coach{
+  width: 1413px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: black;
+  padding-left: 80px;
+  margin-top: 50px;
+}
+.coach h1{
+  font-size: 45px;
+}
+
+
+
+.coachbox{
+  width: 100%;
+  height:400px;
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-evenly;
+
+}
+
+.coachphotobox{
+  width:300px;
+  height:300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.coachphoto{
+  width:300px;
+  height:300px;
+  background-image: url(images/coach1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.coachphotobox2{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coachphoto2{
+  width:300px;
+  height:300px;
+  background-image: url(images/coach2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+
+
+
+
+
+
+/* team.html page css */
+
+.teamouterbox{
+  background:url("images/teampagephoto.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 800px;
+}
+.teambox{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.boys{
+  width:300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.boys a{
+  color:blue;
+  font-size: 60px;
+}
+
+.girls{
+  margin-left: 250px;
+  width:300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.girls a{
+  color:blue;
+  font-size: 60px;
+}
+
+
+/* boys section */
+
+/* row1 */
+
+.team_boys_row1_outerbox{
+  width: 100%;
+  height: 560px;
+  display: flex;
+  margin-top: 50px;
+}
+
+/* row1 column1 */
+.row1_photo1_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.row1_photo1{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row1_cl1_photo1{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/coach1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.row1_name1{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.row1_position1{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+
+/* row1 column2 */
+
+.row1_photo2_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.row1_photo2{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row1_cl2_photo2{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/coach2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.row1_name2{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.row1_position2{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+
+/* row1 column3 */
+
+.row1_photo3_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.row1_photo3{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row1_cl3_photo3{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/harsha.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.row1_name3{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.row1_position3{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+
+/* row2 */
+
+.team_boys_row2_outerbox{
+  width: 100%;
+  height: 560px;
+  display: flex;
+  margin-top: 50px;
+}
+
+/* row2 column1 */
+.row2_photo1_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.row2_photo1{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row2_cl1_photo1{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/beeru.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.row2_name1{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.row2_position1{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+
+/* row2 column2 */
+
+.row2_photo2_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.row2_photo2{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row2_cl2_photo2{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/chethan.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.row2_name2{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.row2_position2{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+
+/* row2 column3 */
+
+.row2_photo3_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.row2_photo3{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row2_cl3_photo3{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/chandan.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.row2_name3{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.row2_position3{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+
+/* row3 */
+
+.team_boys_row3_outerbox{
+  width: 100%;
+  height: 560px;
+  display: flex;
+  margin-top: 50px;
+}
+
+/* row3 column1 */
+.row3_photo1_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.row3_photo1{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row3_cl1_photo1{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/sudharshan.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.row3_name1{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.row3_position1{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+
+/* row3 column2 */
+
+.row3_photo2_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.row3_photo2{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row3_cl2_photo2{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/vinod.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.row3_name2{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.row3_position2{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+
+/* row3 column3 */
+
+.row3_photo3_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.row3_photo3{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row3_cl3_photo3{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/venki.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.row3_name3{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.row3_position3{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+/* row4 */
+
+
+.team_boys_row4_outerbox{
+  width: 100%;
+  height: 560px;
+  display: flex;
+  margin-top: 50px;
+}
+
+/* row4 column1 */
+.row4_photo1_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.row4_photo1{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row4_cl1_photo1{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/mohan.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.row4_name1{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.row4_position1{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+
+/* row4 column2 */
+
+.row4_photo2_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.row4_photo2{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row4_cl2_photo2{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/mane.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.row4_name2{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.row4_position2{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+
+/* row4 column3 */
+
+.row4_photo3_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.row4_photo3{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row4_cl3_photo3{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/ashith.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.row4_name3{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.row4_position3{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+/* row5 */
+
+.team_boys_row5_outerbox{
+  width: 100%;
+  height: 560px;
+  display: flex;
+  margin-top: 50px;
+}
+
+/* row5 column1 */
+.row5_photo1_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.row5_photo1{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row5_cl1_photo1{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/navneesh.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.row5_name1{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.row5_position1{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+
+/* row5 column2 */
+
+.row5_photo2_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.row5_photo2{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row5_cl2_photo2{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/preetham.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.row5_name2{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.row5_position2{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+
+/* row5 column3 */
+
+.row5_photo3_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.row5_photo3{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row5_cl3_photo3{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/nikil.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.row5_name3{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.row5_position3{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+/* row6 */
+
+.team_boys_row6_outerbox{
+  width: 100%;
+  height: 560px;
+  display: flex;
+  margin-top: 50px;
+}
+
+/* row6 column1 */
+.row6_photo1_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.row6_photo1{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row6_cl1_photo1{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/adithya.jpg");
+  background-position: calc();
+  background-size: cover;
+  background-repeat: no-repeat;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.row6_name1{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.row6_position1{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+
+/* row6 column2 */
+
+.row6_photo2_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.row6_photo2{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row6_cl2_photo2{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/yogesh\ s.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.row6_name2{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.row6_position2{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+
+/* row6 column3 */
+
+.row6_photo3_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.row6_photo3{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row6_cl3_photo3{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/yogesh.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.row6_name3{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.row6_position3{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+/* row7 */
+
+.team_boys_row7_outerbox{
+  width: 100%;
+  height: 560px;
+  display: flex;
+  margin-top: 50px;
+}
+
+/* row7 column1 */
+.row7_photo1_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.row7_photo1{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row7_cl1_photo1{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/sharanu.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.row7_name1{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.row7_position1{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+
+/* row7 column2 */
+
+.row7_photo2_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.row7_photo2{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row7_cl2_photo2{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/chandru.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.row7_name2{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.row7_position2{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+
+/* row7 column3 */
+
+.row7_photo3_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.row7_photo3{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row7_cl3_photo3{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/manoj.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.row7_name3{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.row7_position3{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+/* row8 */
+
+.team_boys_row8_outerbox{
+  width: 100%;
+  height: 560px;
+  display: flex;
+  margin-top: 50px;
+}
+
+/* row8 column1 */
+.row8_photo1_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.row8_photo1{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row8_cl1_photo1{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/seena.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.row8_name1{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.row8_position1{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+
+/* row8 column2 */
+
+.row8_photo2_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.row8_photo2{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row8_cl2_photo2{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/vishwa.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.row8_name2{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.row8_position2{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+
+/* row8 column3 */
+/* 
+.row8_photo3_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.row8_photo3{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row8_cl3_photo3{
+  width: 300px;
+  height: 300px;
+  background-image: url("harsha.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.row8_name3{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.row8_position3{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+} */
+
+
+/* girls section */
+
+
+.team_girls_row1_outerbox{
+  width: 100%;
+  height: 560px;
+  display: flex;
+  margin-top: 50px;
+}
+
+/* row1 column1 */
+.girls_row1_photo1_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.girls_row1_photo1{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.girls_row1_cl1_photo1{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/sharvari.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.girls_row1_name1{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.girls_row1_position1{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+
+/* row1 column2 */
+
+.girls_row1_photo2_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.girls_row1_photo2{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.girls_row1_cl2_photo2{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/kruthi.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  
+}
+
+.girls_row1_name2{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.girls_row1_position2{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+
+/* row1 column3 */
+
+.girls_row1_photo3_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.girls_row1_photo3{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.girls_row1_cl3_photo3{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/divyashree.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.girls_row1_name3{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.girls_row1_position3{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+
+/* row2 */
+
+.team_girls_row2_outerbox{
+  width: 100%;
+  height: 560px;
+  display: flex;
+  margin-top: 50px;
+}
+
+/* row2 column1 */
+.girls_row2_photo1_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.girls_row2_photo1{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.girls_row2_cl1_photo1{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/nidhi.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.girls_row2_name1{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.girls_row2_position1{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+
+/* row2 column2 */
+
+.girls_row2_photo2_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.girls_row2_photo2{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.girls_row2_cl2_photo2{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/anagha.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px; 
+}
+
+.girls_row2_name2{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.girls_row2_position2{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+
+/* row2 column3 */
+
+.girls_row2_photo3_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.girls_row2_photo3{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.girls_row2_cl3_photo3{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/akanksha.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.girls_row2_name3{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.girls_row2_position3{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+
+/* row3 */
+
+.team_girls_row3_outerbox{
+  width: 100%;
+  height: 560px;
+  display: flex;
+  margin-top: 50px;
+}
+
+/* row3 column1 */
+.girls_row3_photo1_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.girls_row3_photo1{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.girls_row3_cl1_photo1{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/akshatha.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.girls_row3_name1{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.girls_row3_position1{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+
+/* row3 column2 */
+
+.girls_row3_photo2_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.girls_row3_photo2{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.girls_row3_cl2_photo2{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/keerthana.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.girls_row3_name2{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.girls_row3_position2{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+
+/* row3 column3 */
+
+.girls_row3_photo3_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.girls_row3_photo3{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.girls_row3_cl3_photo3{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/denali\ dsouza.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.girls_row3_name3{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.girls_row3_position3{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+/* row4 */
+
+
+.team_girls_row4_outerbox{
+  width: 100%;
+  height: 560px;
+  display: flex;
+  margin-top: 50px;
+}
+
+/* row4 column1 */
+.girls_row4_photo1_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.girls_row4_photo1{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.girls_row4_cl1_photo1{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/disha\ k.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.girls_row4_name1{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.girls_row4_position1{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+
+/* row4 column2 */
+
+.girls_row4_photo2_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.girls_row4_photo2{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.girls_row4_cl2_photo2{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/kavya.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.girls_row4_name2{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.girls_row4_position2{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+
+/* row4 column3 */
+
+.girls_row4_photo3_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.girls_row4_photo3{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.girls_row4_cl3_photo3{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/prathibha.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.girls_row4_name3{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.girls_row4_position3{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+/* row5 */
+
+.team_girls_row5_outerbox{
+  width: 100%;
+  height: 560px;
+  display: flex;
+  margin-top: 50px;
+}
+
+/* row5 column1 */
+.girls_row5_photo1_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.girls_row5_photo1{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.girls_row5_cl1_photo1{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/rajashree.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.girls_row5_name1{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.girls_row5_position1{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+
+/* row5 column2 */
+
+.girls_row5_photo2_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.girls_row5_photo2{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.girls_row5_cl2_photo2{
+  width: 300px;
+  height: 300px;
+  background-image: url("images/waiza.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.girls_row5_name2{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.girls_row5_position2{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
+
+
+/* row5 column3 */
+
+/* .girls_row5_photo3_box{
+  width: 33.3%;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.girls_row5_photo3{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.girls_row5_cl3_photo3{
+  width: 300px;
+  height: 300px;
+  background-image: url("nikil.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border:2px white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  
+}
+
+.girls_row5_name3{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.girls_row5_position3{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+} */
+
+
+
+/* gallery part */
+
+/* main box */
+
+.gallerymainouterbox{
+  width: 100%;
+  height: 1800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgoldenrodyellow;
+}
+
+/* inner box 1 inside main box */
+.galleryinnerbox1{
+  width: 90%;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 4px 12px black;
+}
+
+.galleryinnerbox1inner1{
+  width: 33.3%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.galleryinner1photobox1{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid white;
+}
+
+.inner1photo1{
+  width: 100%;
+  height: 400px;
+  background-image: url(images/image4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.galleryinner1photobox2{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid white;
+}
+
+.inner1photo2{
+  width: 100%;
+  height: 400px;
+  background-image: url(images/image2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+
+
+.galleryinnerbox1inner2{
+  width: 33.3%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.galleryinner2photobox1{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid white;
+}
+
+.inner2photo1{
+  width: 100%;
+  height: 400px;
+  background-image: url(images/image1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.galleryinner2photobox2{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid white;
+}
+
+.inner2photo2{
+  width: 100%;
+  height: 400px;
+  background-image: url(images/image10.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+
+.galleryinnerbox1inner3{
+  width: 33.3%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.galleryinner3photobox1{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid white;
+}
+
+.inner3photo1{
+  width: 100%;
+  height: 400px;
+  background-image: url(images/image9.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.galleryinner3photobox2{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid white;
+}
+
+.inner3photo2{
+  width: 100%;
+  height: 400px;
+  background-image: url(images/image6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+
+
+
+/* inner box 2 in side main box */
+
+.galleryinnerbox2{
+  width: 90%;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 4px 12px black;
+  margin-top: 50px;
+}
+
+.galleryinnerbox2inner1{
+   width: 50%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.galleryinner2inner1photobox1{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid white;
+}
+
+.inner2inner1photo1{
+   width: 100%;
+  height: 400px;
+  background-image: url(images/image3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.galleryinner2inner1photobox2{
+   width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid white;
+}
+
+.inner2inner1photo2{
+   width: 100%;
+  height: 400px;
+  background-image: url(images/image7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+
+.galleryinnerbox2inner2{
+   width: 50%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.galleryinner2inner2photobox1{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid white;
+}
+
+.inner2inner2photo1{
+   width: 100%;
+  height: 400px;
+  background-image: url(images/image5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.galleryinner2inner2photobox2{
+   width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid white;
+}
+
+.inner2inner2photo2{
+   width: 100%;
+  height: 400px;
+  background-image: url(images/image8.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+/* achivements */
+
+.achivement-namebox1{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.achivement-photobox1{
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.achivement-photo1{
+  width: 80%;
+  height: 600px;
+  background-image: url(images/image3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 12px black;
+}
+
+
+
+.achivement-namebox2{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.achivement-photobox2{
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.achivement-photo2{
+  width: 80%;
+  height: 600px;
+  background-image: url(images/image5.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 12px black;
+}
+
+.achivement-namebox3{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.achivement-photobox3{
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+.achivement-photo3-1box{
+  width: 25%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.achivement-photo3-1{
+  width: 100%;
+  height: 400px;
+  background-image: url(images/sharvari.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 12px black;
+}
+
+.achivement-photo3-1name{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.achivement-photo3-1name h1{
+  margin-top: 30px;
+}
+
+
+.achivement-photo3-2box{
+  width: 25%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.achivement-photo3-2{
+  width: 100%;
+  height: 400px;
+  background-image: url(images/divyashree.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0 4px 12px black;
+}
+
+.achivement-photo3-2name{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.achivement-photo3-2name h1{
+  margin-top: 30px;
+}
+
+
+.achivement-photo3-3box{
+  width: 25%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.achivement-photo3-3{
+  width: 100%;
+  height: 400px;
+  background-image: url(images/kruthi.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 12px black;
+}
+
+.achivement-photo3-3name{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.achivement-photo3-3name h1{
+  margin-top: 30px;
+}
+
+
+/* contact.html */
+
+.contactpageimgbox{
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+
+.contactpageimg{
+  width: 100%;
+  height: 500px;
+  background-image: url(images/contactpage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+  z-index: -100;
+}
+
+.contactpagetextbox{
+  background-color: white;
+  margin-top: 30px;
+   width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactpagecontacttext{
+  width:80%;
+  height: 80px;
+  font-size: 25px;
+
+}
+
+.contactpagetext{
+  width:80%;
+  height: 300px;
+  border: 2px solid white;
+  display: flex;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.contactpagetext h3{
+  margin-top: 40px;
+}
+
+
+/* tornament page */
+
+.tournamentouterbox{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 102px;
+}
+
+.tournament-details{
+  width: 100%;
+  height: 300px;
+  margin-top: 40px;
+  line-height: 2;
+  
+}
+
+.tournament-details h2{
+  margin-left:20px ;
+}
+
+.tournament-details a{
+  margin-left:30px ;
+  font-size: 20px;
+}
+
+.furter-update-box{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c3c8f1;
+  margin-bottom: 20px;
+}
+
+.furter-update-text{
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
+  animation: pulse 2s infinite;
+
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2); /* grows to 150% */
+  }
+  100% {
+    transform: scale(1);
+  }
+}
