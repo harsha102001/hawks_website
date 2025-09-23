@@ -3,9 +3,9 @@
 
   /* Header adjustments */
   .navbar {
-    flex-direction: column;
-    height: auto;
-    padding: 10px 0;
+    /* flex-direction: column; */
+    /* height: auto; */
+    /* padding: 10px 0; */
   }
 
   .navlogo, .logobox, .namebox, .nav-options {
@@ -524,3 +524,4 @@
     font-size: 22px;
   }
 }
+
