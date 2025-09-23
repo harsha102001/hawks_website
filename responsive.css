@@ -80,6 +80,7 @@
   flex-direction: row; /* logos stay in a row */
   justify-content: space-around; /* even spacing */
   align-items: center;
+  flex-wrap:wrap;
   height: auto;
   padding: 10px 0;
 }
@@ -581,6 +582,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
