@@ -97,6 +97,7 @@
     align-items: center;
     width: 100%;
     margin-top: 30px;
+   padding:10px 0;
   }
 
   .clubimagebox {
@@ -582,6 +583,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
