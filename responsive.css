@@ -207,6 +207,7 @@
   .indexgalleryinner3{
     display: flex;
     align-items: center;
+    margin-bottom: 40px;
   }
 
   /* Footer section */
@@ -614,6 +615,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
