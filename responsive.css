@@ -1,0 +1,91 @@
+/* responsive.css */
+
+/* Tablet view */
+@media (max-width: 768px) {
+  .cb-name {
+    font-size: 28px;
+  }
+
+  .nav-options {
+    margin-left: 20px;
+  }
+
+  .nav-options a {
+    font-size: 16px;
+  }
+
+  .alogo {
+    width: 250px;
+    height: 250px;
+  }
+
+  .aboutclubbox p,
+  .aboutaboutclubbox p,
+  .clubmission p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .coachbox {
+    flex-wrap: wrap; /* allow coaches to wrap */
+  }
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+  header {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .cb-name {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .nav-options {
+    margin-left: 0;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+
+  .nav-options a {
+    font-size: 14px;
+    margin: 8px 0;
+  }
+
+  .alogo {
+    width: 150px;
+    height: 150px;
+  }
+
+  .aboutclubbox, .clubimagebox {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutclubbox h1 {
+    font-size: 24px;
+  }
+
+  .aboutclubbox p {
+    font-size: 16px;
+  }
+
+  .coachbox {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .coachphotobox, .coachphotobox2 {
+    margin-bottom: 20px;
+  }
+
+  .footer-text {
+    font-size: 14px;
+    padding: 15px;
+  }
+}
