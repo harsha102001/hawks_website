@@ -1,91 +1,526 @@
-/* responsive.css */
+/* Media Query for tablets and mobile devices */
+@media only screen and (max-width: 768px) {
 
-/* Tablet view */
-@media (max-width: 768px) {
-  .cb-name {
-    font-size: 28px;
-  }
-
-  .nav-options {
-    margin-left: 20px;
-  }
-
-  .nav-options a {
-    font-size: 16px;
-  }
-
-  .alogo {
-    width: 250px;
-    height: 250px;
-  }
-
-  .aboutclubbox p,
-  .aboutaboutclubbox p,
-  .clubmission p {
-    font-size: 18px;
-    line-height: 1.6;
-  }
-
-  .coachbox {
-    flex-wrap: wrap; /* allow coaches to wrap */
-  }
-}
-
-/* Mobile view */
-@media (max-width: 480px) {
-  header {
+  /* Header adjustments */
+  .navbar {
     flex-direction: column;
     height: auto;
+    padding: 10px 0;
+  }
+
+  .navlogo, .logobox, .namebox, .nav-options {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin: 5px 0;
   }
 
   .cb-name {
-    font-size: 20px;
+    font-size: 28px;
     text-align: center;
   }
 
-  .nav-options {
-    margin-left: 0;
+  .nav-options ul {
     flex-direction: column;
-    height: auto;
     align-items: center;
+  }
+
+  .nav-options li {
+    margin: 10px 0;
   }
 
   .nav-options a {
-    font-size: 14px;
-    margin: 8px 0;
+    font-size: 18px;
   }
 
-  .alogo {
-    width: 150px;
-    height: 150px;
+  /* Main picture adjustments */
+  .mainpicture {
+    height: 500px;
   }
 
-  .aboutclubbox, .clubimagebox {
-    width: 100%;
+  .overlay {
+    height: 400px;
+  }
+
+  .welcomebox {
+    margin-top: 60px;
+    height: auto;
+  }
+
+  .welcometext {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .afthedlogo .alogo {
+    width: 200px;
+    height: 200px;
+  }
+
+  .slogan h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  /* Tournament section */
+  .indextournamentouterbox {
     height: auto;
     flex-direction: column;
-    align-items: center;
+  }
+
+  .tournamentlogobox, .tournamentnameoutbox {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .tournamentlogo, .mdbalogo, .hawkslogo {
+    width: 60px;
+    height: 60px;
+    margin: 10px 0;
+  }
+
+  .tournamentnamebox h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .clickbutton {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  /* About club section */
+  .indexaboutclub {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .clubimagebox, .aboutclubbox {
+    width: 90%;
+    height: auto;
+    margin: 10px 0;
   }
 
   .aboutclubbox h1 {
-    font-size: 24px;
+    font-size: 28px;
+    text-align: center;
   }
 
   .aboutclubbox p {
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
   }
 
-  .coachbox {
+  /* Gallery section */
+  .indexgalleryouterbox {
+    height: auto;
+  }
+
+  .indexgalleryinner1 {
+    font-size: 28px;
+  }
+
+  .indexgalleryinner2, .indexgalleryphotoboxouter {
+    width: 95%;
+    height: 250px;
+  }
+
+  .gallery-track > div {
+    width: 50%; /* Show 2 images at a time */
+    height: 250px;
+  }
+
+  .indgalphoto1, .indgalphoto2, .indgalphoto3, .indgalphoto4 {
+    height: 250px;
+  }
+
+  /* Footer section */
+  .foot-panel1 {
     flex-direction: column;
-    align-items: center;
+    height: auto;
+    padding: 20px 0;
   }
 
-  .coachphotobox, .coachphotobox2 {
-    margin-bottom: 20px;
+  ul {
+    margin-top: 10px;
+  }
+
+  ul a, ul p, ul h4 {
+    font-size: 14px;
+    margin-left: 0;
+    text-align: center;
   }
 
   .footer-text {
     font-size: 14px;
     padding: 15px;
+  }
+
+  .social-link {
+    font-size: 18px;
+    margin: 5px;
+  }
+}
+
+
+/* Media Query for About page - tablets and mobile devices */
+@media only screen and (max-width: 768px) {
+
+  /* About section header */
+  .about-box {
+    flex-direction: column;
+    height: auto;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .about-name {
+    margin-left: 0;
+  }
+
+  /* About club content */
+  .aboutaboutclub {
+    width: 95%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .aboutaboutclubbox {
+    width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .aboutaboutclubbox h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .aboutaboutclubbox p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+
+  /* Club mission */
+  .clubmission {
+    width: 95%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+  }
+
+  .clubmission h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .clubmission p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+
+  /* Coach section */
+  .coach {
+    width: 95%;
+    padding-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .coach h1 {
+    font-size: 28px;
+  }
+
+  .coachbox {
+    width: 95%;
+    flex-direction: column;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .coachphotobox, .coachphotobox2 {
+    width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .coachphoto, .coachphoto2 {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+  }
+}
+
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+  
+  .teamouterbox {
+    height: 500px; /* smaller height for mobile */
+    background-size: cover;
+  }
+
+  .teambox {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .boys, .girls {
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+  }
+
+  .boys a, .girls a {
+    font-size: 40px;
+  }
+
+  /* Rows: stack columns vertically */
+  .team_boys_row1_outerbox,
+  .team_boys_row2_outerbox,
+  .team_boys_row3_outerbox,
+  .team_boys_row4_outerbox,
+  .team_boys_row5_outerbox,
+  .team_boys_row6_outerbox,
+  .team_boys_row7_outerbox,
+  .team_boys_row8_outerbox,
+  .team_girls_row1_outerbox,
+  .team_girls_row2_outerbox,
+  .team_girls_row3_outerbox,
+  .team_girls_row4_outerbox,
+  .team_girls_row5_outerbox {
+    flex-direction: column;
+    height: auto;
+  }
+
+  /* Columns inside rows */
+  [class*="photo"]_box {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 30px;
+  }
+
+  [class*="cl"] {
+    width: 80% !important;
+    height: auto !important;
+  }
+
+  [class*="name"], [class*="position"] {
+    font-size: 25px !important;
+    height: auto !important;
+    padding: 5px 0;
+  }
+}
+
+
+/* Mobile Responsive for Gallery */
+@media screen and (max-width: 768px) {
+
+  .gallerymainouterbox {
+    height: auto; /* Let height adjust */
+    padding: 20px 0;
+  }
+
+  .galleryinnerbox1,
+  .galleryinnerbox2 {
+    flex-direction: column; /* Stack columns on mobile */
+    width: 95%;
+    height: auto;
+    margin-top: 30px;
+  }
+
+  /* Inner boxes inside galleryinnerbox1 */
+  .galleryinnerbox1inner1,
+  .galleryinnerbox1inner2,
+  .galleryinnerbox1inner3,
+  .galleryinnerbox2inner1,
+  .galleryinnerbox2inner2 {
+    width: 100%;  /* Full width */
+    height: auto; /* Auto height */
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  /* Photo boxes */
+  .galleryinner1photobox1,
+  .galleryinner1photobox2,
+  .galleryinner2photobox1,
+  .galleryinner2photobox2,
+  .galleryinner3photobox1,
+  .galleryinner3photobox2,
+  .galleryinner2inner1photobox1,
+  .galleryinner2inner1photobox2,
+  .galleryinner2inner2photobox1,
+  .galleryinner2inner2photobox2 {
+    height: 200px; /* Reduce height for mobile */
+  }
+
+  /* Photos inside boxes */
+  .inner1photo1,
+  .inner1photo2,
+  .inner2photo1,
+  .inner2photo2,
+  .inner3photo1,
+  .inner3photo2,
+  .inner2inner1photo1,
+  .inner2inner1photo2,
+  .inner2inner2photo1,
+  .inner2inner2photo2 {
+    height: 100%; /* Fill the photo box */
+  }
+}
+
+
+
+
+/* Mobile Responsive for Achievements */
+@media screen and (max-width: 768px) {
+
+  /* Name boxes */
+  .achivement-namebox1,
+  .achivement-namebox2,
+  .achivement-namebox3 {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  /* Photo boxes */
+  .achivement-photobox1,
+  .achivement-photobox2,
+  .achivement-photobox3 {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Single achievement photos */
+  .achivement-photo1,
+  .achivement-photo2 {
+    width: 90%; /* Shrink width on mobile */
+    height: 300px; /* Reduce height */
+  }
+
+  /* Multiple achievement photos (row of boxes) */
+  .achivement-photo3-1box,
+  .achivement-photo3-2box,
+  .achivement-photo3-3box {
+    width: 90%; /* Full width stacking */
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .achivement-photo3-1,
+  .achivement-photo3-2,
+  .achivement-photo3-3 {
+    width: 100%;
+    height: 250px; /* Reduce photo height */
+  }
+
+  .achivement-photo3-1name,
+  .achivement-photo3-2name,
+  .achivement-photo3-3name {
+    height: auto;
+    text-align: center;
+  }
+
+  .achivement-photo3-1name h1,
+  .achivement-photo3-2name h1,
+  .achivement-photo3-3name h1 {
+    margin-top: 10px;
+    font-size: 18px; /* Adjust font size */
+  }
+}
+
+
+/* Mobile Responsive for Contact Page */
+@media screen and (max-width: 768px) {
+
+  /* Background image box */
+  .contactpageimgbox {
+    height: 300px; /* Reduce height on mobile */
+  }
+
+  .contactpageimg {
+    height: 300px; /* Match the box height */
+    position: relative; /* So content scrolls normally on mobile */
+  }
+
+  /* Text box */
+  .contactpagetextbox {
+    margin-top: 20px;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  /* Contact heading */
+  .contactpagecontacttext {
+    width: 90%; /* Shrink width on mobile */
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  /* Contact details box */
+  .contactpagetext {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  }
+
+  .contactpagetext h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+/* Mobile Responsive for Tournament Page */
+@media screen and (max-width: 768px) {
+
+  /* Outer box */
+  .tournamentouterbox {
+    margin-top: 60px;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  /* Tournament details */
+  .tournament-details {
+    height: auto;
+    margin-top: 20px;
+    line-height: 1.6;
+    padding: 0 10px;
+  }
+
+  .tournament-details h2 {
+    margin-left: 10px;
+    font-size: 20px;
+  }
+
+  .tournament-details a {
+    margin-left: 15px;
+    font-size: 16px;
+  }
+
+  /* Further update box */
+  .furter-update-box {
+    height: auto;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+  }
+
+  .furter-update-text {
+    font-size: 22px;
   }
 }
