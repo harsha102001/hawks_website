@@ -75,17 +75,26 @@
     flex-direction: column;
   }
 
-  .tournamentlogobox, .tournamentnameoutbox {
-    flex-direction: column;
-    height: auto;
-    padding: 10px 0;
-  }
+.tournamentlogobox {
+  display: flex;
+  flex-direction: row; /* logos stay in a row */
+  justify-content: space-around; /* even spacing */
+  align-items: center;
+  height: auto;
+  padding: 10px 0;
+}
 
-  .tournamentlogo, .mdbalogo, .hawkslogo {
-    width: 60px;
-    height: 60px;
-    margin: 10px 0;
-  }
+.tournamentnameoutbox {
+  flex-direction: column; /* keep name section stacked */
+  height: auto;
+  padding: 10px 0;
+}
+
+.tournamentlogo, .mdbalogo, .hawkslogo {
+  width: 60px;
+  height: 60px;
+  margin: 0 10px; /* horizontal spacing between logos */
+}
 
   .tournamentnamebox h1 {
     font-size: 28px;
@@ -572,6 +581,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
