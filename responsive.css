@@ -91,7 +91,6 @@
   padding: 10px 0;
 }
 
-.tournamentlogo,
 .mdbalogo,
 .hawkslogo {
     width: 80px !important;    /* force proper size */
@@ -101,6 +100,18 @@
     background-position: center !important;
     background-repeat: no-repeat !important;
     margin: 0 10px !important; /* optional spacing */
+  }
+
+  .tournamentlogo {
+    width: 80px !important;
+    height: 80px !important;         /* force the height */
+    min-height: 80px !important;     /* prevent collapse */
+    flex-shrink: 0 !important;       /* prevent shrinking */
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    margin: 0 10px !important;
+    display: inline-block !important; /* ensures proper sizing */
   }
   .tournamentnamebox h1 {
     font-size: 28px;
@@ -587,6 +598,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
