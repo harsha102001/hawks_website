@@ -78,10 +78,12 @@
 .tournamentlogobox {
   display: flex;
   flex-direction: row; /* logos stay in a row */
-  justify-content: space-around; /* even spacing */
+  justify-content: center; /* even spacing */
   align-items: center;
-  flex-wrap:wrap;
-  height: auto;
+  gap:20px;
+  flex-wrap:nowrap;
+  width:100%;
+  box-sizing: border-box;
   padding: 20px 0;
 }
 
@@ -94,7 +96,6 @@
 .tournamentlogo, .mdbalogo, .hawkslogo {
   width: 50px;
   height: 50px;
-  margin: 10px; /* horizontal spacing between logos */
   flex-shrink:0;
 }
 
@@ -583,6 +584,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
