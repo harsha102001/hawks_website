@@ -76,14 +76,14 @@
   }
 
 .tournamentlogobox {
-    flex-direction: row;       /* keep logos in a row */
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    min-height: 80px;          /* enough height */
-    padding: 20px 0;
-    flex-wrap: nowrap;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: auto; /* make sure container can expand */
+  padding: 20px 0;
+}
 
 .tournamentnameoutbox {
   flex-direction: column; /* keep name section stacked */
@@ -609,6 +609,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
