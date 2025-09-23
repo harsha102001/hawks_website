@@ -213,23 +213,6 @@
     margin-top: 20px;
   }
 
-  .clubimagebox {
-    width: 100%;
-    max-width: 500px;     
-    height: auto;
-    display: flex;
-    justify-content: center; 
-    margin: 0 auto;
-  }
-
-  .clubimage {
-    width: 100%;
-    height: auto;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
   .aboutaboutclubbox {
     width: 90%;
     height: auto;
@@ -583,6 +566,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
