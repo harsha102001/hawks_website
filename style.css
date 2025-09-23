@@ -719,29 +719,29 @@ ul h4{
 
 .team_boys_row1_outerbox{
   width: 100%;
-  height: 560px;
+  height: 78.431vh;
   display: flex;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 /* row1 column1 */
 .row1_photo1_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .row1_photo1{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .row1_cl1_photo1{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/coach1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -753,20 +753,20 @@ ul h4{
 
 .row1_name1{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .row1_position1{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -775,21 +775,21 @@ ul h4{
 
 .row1_photo2_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .row1_photo2{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .row1_cl2_photo2{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/coach2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -801,20 +801,20 @@ ul h4{
 
 .row1_name2{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .row1_position2{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -823,21 +823,21 @@ ul h4{
 
 .row1_photo3_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .row1_photo3{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .row1_cl3_photo3{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/harsha.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -848,20 +848,20 @@ ul h4{
 
 .row1_name3{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .row1_position3{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -870,29 +870,29 @@ ul h4{
 
 .team_boys_row2_outerbox{
   width: 100%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 /* row2 column1 */
 .row2_photo1_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .row2_photo1{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .row2_cl1_photo1{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/beeru.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -903,20 +903,20 @@ ul h4{
 
 .row2_name1{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .row2_position1{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -925,21 +925,21 @@ ul h4{
 
 .row2_photo2_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .row2_photo2{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .row2_cl2_photo2{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/chethan.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -951,20 +951,20 @@ ul h4{
 
 .row2_name2{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .row2_position2{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -973,21 +973,21 @@ ul h4{
 
 .row2_photo3_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .row2_photo3{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .row2_cl3_photo3{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/chandan.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -998,20 +998,20 @@ ul h4{
 
 .row2_name3{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .row2_position3{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -1020,29 +1020,29 @@ ul h4{
 
 .team_boys_row3_outerbox{
   width: 100%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 /* row3 column1 */
 .row3_photo1_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .row3_photo1{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .row3_cl1_photo1{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/sudharshan.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1053,20 +1053,20 @@ ul h4{
 
 .row3_name1{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .row3_position1{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -1075,21 +1075,21 @@ ul h4{
 
 .row3_photo2_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .row3_photo2{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .row3_cl2_photo2{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/vinod.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1101,20 +1101,20 @@ ul h4{
 
 .row3_name2{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .row3_position2{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size:2.5rem;
 
 }
 
@@ -1123,21 +1123,21 @@ ul h4{
 
 .row3_photo3_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .row3_photo3{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .row3_cl3_photo3{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/venki.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1148,20 +1148,20 @@ ul h4{
 
 .row3_name3{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .row3_position3{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -1170,29 +1170,29 @@ ul h4{
 
 .team_boys_row4_outerbox{
   width: 100%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 /* row4 column1 */
 .row4_photo1_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .row4_photo1{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .row4_cl1_photo1{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/mohan.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1203,20 +1203,20 @@ ul h4{
 
 .row4_name1{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size:2.5rem;
 
 }
 
 .row4_position1{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -1225,21 +1225,21 @@ ul h4{
 
 .row4_photo2_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .row4_photo2{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .row4_cl2_photo2{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/mane.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1250,20 +1250,20 @@ ul h4{
 
 .row4_name2{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .row4_position2{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -1272,21 +1272,21 @@ ul h4{
 
 .row4_photo3_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .row4_photo3{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .row4_cl3_photo3{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/ashith.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1298,20 +1298,20 @@ ul h4{
 
 .row4_name3{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .row4_position3{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -1319,29 +1319,29 @@ ul h4{
 
 .team_boys_row5_outerbox{
   width: 100%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 /* row5 column1 */
 .row5_photo1_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .row5_photo1{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .row5_cl1_photo1{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/navneesh.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1352,20 +1352,20 @@ ul h4{
 
 .row5_name1{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .row5_position1{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -1374,21 +1374,21 @@ ul h4{
 
 .row5_photo2_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .row5_photo2{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .row5_cl2_photo2{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/preetham.JPG");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1400,20 +1400,20 @@ ul h4{
 
 .row5_name2{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .row5_position2{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -1422,21 +1422,21 @@ ul h4{
 
 .row5_photo3_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .row5_photo3{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .row5_cl3_photo3{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/nikil.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1447,20 +1447,20 @@ ul h4{
 
 .row5_name3{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .row5_position3{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -1468,29 +1468,29 @@ ul h4{
 
 .team_boys_row6_outerbox{
   width: 100%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 /* row6 column1 */
 .row6_photo1_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .row6_photo1{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .row6_cl1_photo1{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/adithya.jpg");
   background-position: calc();
   background-size: cover;
@@ -1502,20 +1502,20 @@ ul h4{
 
 .row6_name1{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .row6_position1{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -1524,21 +1524,21 @@ ul h4{
 
 .row6_photo2_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .row6_photo2{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .row6_cl2_photo2{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/yogesh\ s.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1549,20 +1549,20 @@ ul h4{
 
 .row6_name2{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .row6_position2{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -1571,21 +1571,21 @@ ul h4{
 
 .row6_photo3_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .row6_photo3{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .row6_cl3_photo3{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/yogesh.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1597,20 +1597,20 @@ ul h4{
 
 .row6_name3{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .row6_position3{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -1618,29 +1618,29 @@ ul h4{
 
 .team_boys_row7_outerbox{
   width: 100%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 /* row7 column1 */
 .row7_photo1_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .row7_photo1{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .row7_cl1_photo1{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/sharanu.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1652,20 +1652,20 @@ ul h4{
 
 .row7_name1{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .row7_position1{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -1674,21 +1674,21 @@ ul h4{
 
 .row7_photo2_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .row7_photo2{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .row7_cl2_photo2{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/chandru.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1699,20 +1699,19 @@ ul h4{
 
 .row7_name2{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
-
+  font-size: 2.5rem;
 }
 
 .row7_position2{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -1721,21 +1720,21 @@ ul h4{
 
 .row7_photo3_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .row7_photo3{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .row7_cl3_photo3{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/manoj.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1746,20 +1745,20 @@ ul h4{
 
 .row7_name3{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .row7_position3{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -1767,29 +1766,29 @@ ul h4{
 
 .team_boys_row8_outerbox{
   width: 100%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 /* row8 column1 */
 .row8_photo1_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .row8_photo1{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .row8_cl1_photo1{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/seena.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1800,20 +1799,20 @@ ul h4{
 
 .row8_name1{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .row8_position1{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -1822,21 +1821,21 @@ ul h4{
 
 .row8_photo2_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .row8_photo2{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .row8_cl2_photo2{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/vishwa.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1848,20 +1847,20 @@ ul h4{
 
 .row8_name2{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .row8_position2{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -1919,29 +1918,29 @@ ul h4{
 
 .team_girls_row1_outerbox{
   width: 100%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 /* row1 column1 */
 .girls_row1_photo1_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .girls_row1_photo1{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .girls_row1_cl1_photo1{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/sharvari.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1953,20 +1952,20 @@ ul h4{
 
 .girls_row1_name1{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .girls_row1_position1{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -1975,21 +1974,21 @@ ul h4{
 
 .girls_row1_photo2_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .girls_row1_photo2{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .girls_row1_cl2_photo2{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/kruthi.webp");
   background-size: cover;
   background-repeat: no-repeat;
@@ -2002,20 +2001,20 @@ ul h4{
 
 .girls_row1_name2{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .girls_row1_position2{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -2024,21 +2023,21 @@ ul h4{
 
 .girls_row1_photo3_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .girls_row1_photo3{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .girls_row1_cl3_photo3{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/divyashree.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -2049,20 +2048,20 @@ ul h4{
 
 .girls_row1_name3{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .girls_row1_position3{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -2071,29 +2070,29 @@ ul h4{
 
 .team_girls_row2_outerbox{
   width: 100%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 /* row2 column1 */
 .girls_row2_photo1_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .girls_row2_photo1{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .girls_row2_cl1_photo1{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/nidhi.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -2105,20 +2104,20 @@ ul h4{
 
 .girls_row2_name1{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .girls_row2_position1{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -2127,21 +2126,21 @@ ul h4{
 
 .girls_row2_photo2_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .girls_row2_photo2{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .girls_row2_cl2_photo2{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/anagha.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -2153,20 +2152,20 @@ ul h4{
 
 .girls_row2_name2{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .girls_row2_position2{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -2175,21 +2174,21 @@ ul h4{
 
 .girls_row2_photo3_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .girls_row2_photo3{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .girls_row2_cl3_photo3{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/akanksha.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -2201,20 +2200,20 @@ ul h4{
 
 .girls_row2_name3{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .girls_row2_position3{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -2223,29 +2222,29 @@ ul h4{
 
 .team_girls_row3_outerbox{
   width: 100%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 /* row3 column1 */
 .girls_row3_photo1_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .girls_row3_photo1{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .girls_row3_cl1_photo1{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/akshatha.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -2256,20 +2255,20 @@ ul h4{
 
 .girls_row3_name1{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .girls_row3_position1{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -2278,21 +2277,21 @@ ul h4{
 
 .girls_row3_photo2_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .girls_row3_photo2{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .girls_row3_cl2_photo2{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/keerthana.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -2303,20 +2302,20 @@ ul h4{
 
 .girls_row3_name2{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .girls_row3_position2{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -2325,21 +2324,21 @@ ul h4{
 
 .girls_row3_photo3_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .girls_row3_photo3{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .girls_row3_cl3_photo3{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/denali\ dsouza.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -2350,20 +2349,20 @@ ul h4{
 
 .girls_row3_name3{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .girls_row3_position3{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size:2.5rem;
 
 }
 
@@ -2372,29 +2371,29 @@ ul h4{
 
 .team_girls_row4_outerbox{
   width: 100%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 /* row4 column1 */
 .girls_row4_photo1_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .girls_row4_photo1{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .girls_row4_cl1_photo1{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/disha\ k.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -2406,20 +2405,20 @@ ul h4{
 
 .girls_row4_name1{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .girls_row4_position1{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -2428,21 +2427,21 @@ ul h4{
 
 .girls_row4_photo2_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .girls_row4_photo2{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .girls_row4_cl2_photo2{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/kavya.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -2453,20 +2452,20 @@ ul h4{
 
 .girls_row4_name2{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .girls_row4_position2{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size:2.5rem;
 
 }
 
@@ -2475,21 +2474,21 @@ ul h4{
 
 .girls_row4_photo3_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .girls_row4_photo3{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .girls_row4_cl3_photo3{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/prathibha.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -2500,20 +2499,20 @@ ul h4{
 
 .girls_row4_name3{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .girls_row4_position3{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -2521,29 +2520,29 @@ ul h4{
 
 .team_girls_row5_outerbox{
   width: 100%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
-  margin-top: 50px;
+  margin-top:3.125rem;
 }
 
 /* row5 column1 */
 .girls_row5_photo1_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .girls_row5_photo1{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .girls_row5_cl1_photo1{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/rajashree.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -2555,20 +2554,20 @@ ul h4{
 
 .girls_row5_name1{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .girls_row5_position1{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -2577,21 +2576,21 @@ ul h4{
 
 .girls_row5_photo2_box{
   width: 33.3%;
-  height: 560px;
+  height: 78.4vh;
   display: flex;
   flex-direction: column;
 }
 .girls_row5_photo2{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .girls_row5_cl2_photo2{
-  width: 300px;
-  height: 300px;
+  width: 42vh;
+  height: 42vh;
   background-image: url("images/waiza.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -2603,20 +2602,20 @@ ul h4{
 
 .girls_row5_name2{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
 .girls_row5_position2{
   width: 100%;
-  height: 80px;
+  height: 11.2vh;
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 
 }
 
@@ -2686,7 +2685,7 @@ ul h4{
 /* inner box 1 inside main box */
 .galleryinnerbox1{
   width: 90%;
-  height: 800px;
+  height: 112vh;
   display: flex;
   flex-direction: row;
   box-shadow: 0 4px 12px black;
@@ -2694,14 +2693,14 @@ ul h4{
 
 .galleryinnerbox1inner1{
   width: 33.3%;
-  height: 800px;
+  height: 112vh;
   display: flex;
   flex-direction: column;
 }
 
 .galleryinner1photobox1{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2710,7 +2709,7 @@ ul h4{
 
 .inner1photo1{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   background-image: url(images/image4.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -2720,7 +2719,7 @@ ul h4{
 
 .galleryinner1photobox2{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2729,7 +2728,7 @@ ul h4{
 
 .inner1photo2{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   background-image: url(images/image2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -2741,7 +2740,7 @@ ul h4{
 
 .galleryinnerbox1inner2{
   width: 33.3%;
-  height: 800px;
+  height: 112vh;
   display: flex;
   flex-direction: column;
 }
@@ -2749,7 +2748,7 @@ ul h4{
 
 .galleryinner2photobox1{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2758,7 +2757,7 @@ ul h4{
 
 .inner2photo1{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   background-image: url(images/image1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -2768,7 +2767,7 @@ ul h4{
 
 .galleryinner2photobox2{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2777,7 +2776,7 @@ ul h4{
 
 .inner2photo2{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   background-image: url(images/image10.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -2788,7 +2787,7 @@ ul h4{
 
 .galleryinnerbox1inner3{
   width: 33.3%;
-  height: 800px;
+  height: 112vh;
   display: flex;
   flex-direction: column;
 }
@@ -2796,7 +2795,7 @@ ul h4{
 
 .galleryinner3photobox1{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2805,7 +2804,7 @@ ul h4{
 
 .inner3photo1{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   background-image: url(images/image9.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -2815,7 +2814,7 @@ ul h4{
 
 .galleryinner3photobox2{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2824,7 +2823,7 @@ ul h4{
 
 .inner3photo2{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   background-image: url(images/image6.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -2839,7 +2838,7 @@ ul h4{
 
 .galleryinnerbox2{
   width: 90%;
-  height: 800px;
+  height: 112vh;
   display: flex;
   flex-direction: row;
   box-shadow: 0 4px 12px black;
@@ -2848,14 +2847,14 @@ ul h4{
 
 .galleryinnerbox2inner1{
    width: 50%;
-  height: 800px;
+  height: 112vh;
   display: flex;
   flex-direction: column;
 }
 
 .galleryinner2inner1photobox1{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2864,7 +2863,7 @@ ul h4{
 
 .inner2inner1photo1{
    width: 100%;
-  height: 400px;
+  height: 56vh;
   background-image: url(images/image3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -2873,7 +2872,7 @@ ul h4{
 
 .galleryinner2inner1photobox2{
    width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2882,7 +2881,7 @@ ul h4{
 
 .inner2inner1photo2{
    width: 100%;
-  height: 400px;
+  height: 56vh;
   background-image: url(images/image7.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -2894,14 +2893,14 @@ ul h4{
 
 .galleryinnerbox2inner2{
    width: 50%;
-  height: 800px;
+  height: 112vh;
   display: flex;
   flex-direction: column;
 }
 
 .galleryinner2inner2photobox1{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2910,7 +2909,7 @@ ul h4{
 
 .inner2inner2photo1{
    width: 100%;
-  height: 400px;
+  height: 56vh;
   background-image: url(images/image5.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -2919,7 +2918,7 @@ ul h4{
 
 .galleryinner2inner2photobox2{
    width: 100%;
-  height: 400px;
+  height: 56vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2928,7 +2927,7 @@ ul h4{
 
 .inner2inner2photo2{
    width: 100%;
-  height: 400px;
+  height: 56vh;
   background-image: url(images/image8.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -2941,7 +2940,7 @@ ul h4{
 
 .achivement-namebox1{
   width: 100%;
-  height: 100px;
+  height: 14vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2951,7 +2950,7 @@ ul h4{
 
 .achivement-photobox1{
   width: 100%;
-  height: 600px;
+  height: 84vh;
   display: flex;
   justify-content: center;
   
@@ -2959,7 +2958,7 @@ ul h4{
 
 .achivement-photo1{
   width: 80%;
-  height: 600px;
+  height: 84vh;
   background-image: url(images/image3.jpg);
   background-size: cover;
   background-position: center;
@@ -2971,7 +2970,7 @@ ul h4{
 
 .achivement-namebox2{
   width: 100%;
-  height: 100px;
+  height: 14vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2980,14 +2979,14 @@ ul h4{
 
 .achivement-photobox2{
   width: 100%;
-  height: 600px;
+  height: 84vh;
   display: flex;
   justify-content: center;
 }
 
 .achivement-photo2{
   width: 80%;
-  height: 600px;
+  height: 84vh;
   background-image: url(images/image5.jpg);
   background-size: cover;
   background-position: center;
@@ -2997,7 +2996,7 @@ ul h4{
 
 .achivement-namebox3{
   width: 100%;
-  height: 100px;
+  height: 14vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3006,7 +3005,7 @@ ul h4{
 
 .achivement-photobox3{
   width: 100%;
-  height: 600px;
+  height: 84vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -3015,14 +3014,14 @@ ul h4{
 
 .achivement-photo3-1box{
   width: 25%;
-  height: 600px;
+  height: 84vh;
   display: flex;
   flex-direction: column;
 }
 
 .achivement-photo3-1{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   background-image: url(images/sharvari.jpg);
   background-size: cover;
   background-position: center;
@@ -3032,27 +3031,27 @@ ul h4{
 
 .achivement-photo3-1name{
   width: 100%;
-  height: 200px;
+  height: 28vh;
   display: flex;
   justify-content: center;
   /* align-items: center; */
 }
 
 .achivement-photo3-1name h1{
-  margin-top: 30px;
+  margin-top: 1.87rem;
 }
 
 
 .achivement-photo3-2box{
   width: 25%;
-  height: 600px;
+  height: 84vh;
   display: flex;
   flex-direction: column;
 }
 
 .achivement-photo3-2{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   background-image: url(images/divyashree.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -3062,27 +3061,27 @@ ul h4{
 
 .achivement-photo3-2name{
   width: 100%;
-  height: 200px;
+  height: 28vh;
   display: flex;
   justify-content: center;
   /* align-items: center; */
 }
 
 .achivement-photo3-2name h1{
-  margin-top: 30px;
+  margin-top: 1.87rem;
 }
 
 
 .achivement-photo3-3box{
   width: 25%;
-  height: 600px;
+  height: 84vh;
   display: flex;
   flex-direction: column;
 }
 
 .achivement-photo3-3{
   width: 100%;
-  height: 400px;
+  height: 56vh;
   background-image: url(images/kruthi.webp);
   background-size: cover;
   background-position: center;
@@ -3092,14 +3091,14 @@ ul h4{
 
 .achivement-photo3-3name{
   width: 100%;
-  height: 200px;
+  height: 28vh;
   display: flex;
   justify-content: center;
   /* align-items: center; */
 }
 
 .achivement-photo3-3name h1{
-  margin-top: 30px;
+  margin-top: 1.87rem;
 }
 
 
@@ -3113,20 +3112,20 @@ ul h4{
 
 .contactpageimg{
   width: 100%;
-  height: 500px;
+  height: 70vh;
   background-image: url(images/contactpage.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  position: fixed;
-  z-index: -100;
+  /* position: fixed; */
+  /* z-index: -100; */
 }
 
 .contactpagetextbox{
   background-color: white;
   margin-top: 30px;
    width: 100%;
-  height: 500px;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -3135,21 +3134,21 @@ ul h4{
 
 .contactpagecontacttext{
   width:80%;
-  height: 80px;
+  height: 11.2vh;
   font-size: 25px;
 
 }
 
 .contactpagetext{
   width:80%;
-  height: 300px;
+  height: 42vh;
   border: 2px solid white;
   display: flex;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
 }
 
 .contactpagetext h3{
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
 
@@ -3157,41 +3156,41 @@ ul h4{
 
 .tournamentouterbox{
   width: 100%;
-  height: 200px;
+  height: 28vh;
   display: flex;
   flex-direction: column;
-  margin-top: 102px;
+  margin-top: 6.37rem;
 }
 
 .tournament-details{
   width: 100%;
-  height: 300px;
-  margin-top: 40px;
+  height: 42vh;
+  margin-top: 2.5rem;
   line-height: 2;
   
 }
 
 .tournament-details h2{
-  margin-left:20px ;
+  margin-left:1.25rem ;
 }
 
 .tournament-details a{
   margin-left:30px ;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .furter-update-box{
   width: 100%;
-  height: 100px;
+  height: 14vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #c3c8f1;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .furter-update-text{
-  font-size: 30px;
+  font-size: 1.87rem;
   font-weight: bold;
   color: red;
   animation: pulse 2s infinite;
