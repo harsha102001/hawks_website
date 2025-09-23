@@ -1,3 +1,161 @@
+/* MOBILE FIRST STYLING - adjust for smaller screens */
+
+/* NAVBAR */
+@media (max-width: 1024px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .navlogo, .logobox, .namebox, .nav-options {
+    width: 100%;
+    justify-content: center;
+    margin: 5px 0;
+  }
+
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+
+  .cb-name {
+    font-size: 28px;
+  }
+
+  .nav-options ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-options li {
+    margin: 10px 0;
+  }
+
+  .nav-options a {
+    font-size: 18px;
+  }
+}
+
+/* MAIN PICTURE AND OVERLAY */
+@media (max-width: 1024px) {
+  .mainpicture {
+    height: 700px;
+  }
+
+  .overlay {
+    height: 700px;
+    top: 90px;
+  }
+
+  .welcometext {
+    font-size: 32px;
+  }
+
+  .alogo {
+    width: 250px;
+    height: 250px;
+  }
+
+  .slogan h1 {
+    font-size: 28px;
+  }
+}
+
+/* TOURNAMENT SECTION */
+@media (max-width: 1024px) {
+  .indextournamentouterbox {
+    height: auto;
+  }
+
+  .tournamentlogobox, .tournamentnameoutbox {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .mdbalogo, .hawkslogo, .tournamentlogo {
+    width: 70px;
+    height: 70px;
+    margin: 10px 0;
+  }
+
+  .tournamentnamebox h1 {
+    font-size: 28px;
+  }
+
+  .clickbutton {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+/* ABOUT CLUB */
+@media (max-width: 1024px) {
+  .indexaboutclub {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .clubimagebox, .clubimage, .aboutclubbox {
+    width: 90%;
+    height: auto;
+    margin: 10px 0;
+  }
+
+  .aboutclubbox h1 {
+    font-size: 28px;
+  }
+
+  .aboutclubbox p {
+    font-size: 18px;
+  }
+}
+
+/* INDEX GALLERY */
+@media (max-width: 1024px) {
+  .indexgalleryouterbox {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .indexgalleryinner1 {
+    font-size: 28px;
+  }
+
+  .indexgalleryinner2 {
+    height: auto;
+  }
+
+  .indexgalleryphotoboxouter {
+    width: 95%;
+    height: auto;
+  }
+
+  .gallery-track > div, .indexgalleryphotobox1, .indexgalleryphotobox2, .indexgalleryphotobox3, .indexgalleryphotobox4 {
+    width: 50%;
+    height: 200px;
+  }
+
+  .indgalphoto1, .indgalphoto2, .indgalphoto3, .indgalphoto4 {
+    height: 200px;
+  }
+}
+
+/* FOOTER */
+@media (max-width: 1024px) {
+  .foot-panel1 {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  ul {
+    margin: 10px 0;
+    text-align: center;
+  }
+}
+
 
 /* Media Query for About page - tablets and mobile devices */
 @media only screen and (max-width: 768px) {
@@ -357,6 +515,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
