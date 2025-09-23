@@ -234,6 +234,7 @@
     flex-direction: column;
     height: auto;
     margin-top: 20px;
+    justify-content: center;
   }
 
   .coachphotobox, .coachphotobox2 {
@@ -525,6 +526,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
