@@ -250,12 +250,13 @@
 }
 
 
-/* Mobile responsiveness */
+/* Mobile responsiveness for Team Section */
 @media screen and (max-width: 768px) {
   
   .teamouterbox {
-    height: 500px; /* smaller height for mobile */
+    height: auto; /* let it expand naturally */
     background-size: cover;
+    padding: 20px 0;
   }
 
   .teambox {
@@ -265,16 +266,17 @@
   }
 
   .boys, .girls {
-    width: 80%;
+    width: 90%;
     height: auto;
     margin: 20px auto;
   }
 
   .boys a, .girls a {
-    font-size: 40px;
+    font-size: 28px;
+    text-align: center;
   }
 
-  /* Rows: stack columns vertically */
+  /* Rows stack vertically on mobile */
   .team_boys_row1_outerbox,
   .team_boys_row2_outerbox,
   .team_boys_row3_outerbox,
@@ -290,24 +292,31 @@
   .team_girls_row5_outerbox {
     flex-direction: column;
     height: auto;
+    margin-bottom: 20px;
   }
 
-  /* Columns inside rows */
-  [class*="photo"]_box {
+  /* Photo containers */
+  [class*="photo_box"] {
     width: 100% !important;
     height: auto !important;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
-  [class*="cl"] {
-    width: 80% !important;
-    height: auto !important;
+  /* Ensure background images show up */
+  [class*="photo"] {
+    width: 100% !important;
+    min-height: 250px;  /* ensures image is visible */
+    background-size: cover;
+    background-position: center;
   }
 
-  [class*="name"], [class*="position"] {
-    font-size: 25px !important;
+  /* Player name and position text */
+  [class*="name"], 
+  [class*="position"] {
+    font-size: 20px !important;
     height: auto !important;
     padding: 5px 0;
+    text-align: center;
   }
 }
 
@@ -515,6 +524,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
