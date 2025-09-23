@@ -182,15 +182,7 @@
     margin-bottom: 20px;
   }
 
-  .aboutclubbox a {
-    display: inline-block;  /* so margin works */
-    margin-top: 15px;       /* space from paragraph */
-    padding: 10px 20px;     /* optional: button padding */
-    background-color: #007bff; /* example color */
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;      /* optional */
-}
+
 
   /* Gallery section */
   .indexgalleryouterbox {
@@ -626,6 +618,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
