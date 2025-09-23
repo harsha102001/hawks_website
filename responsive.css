@@ -91,9 +91,19 @@
   padding: 10px 0;
 }
 
-.mdbalogo,
+
 .hawkslogo {
     width: 80px !important;    /* force proper size */
+    height: 80px !important;
+    flex-shrink: 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    margin: 0 10px !important; /* optional spacing */
+  }
+
+  .mdbalogo{
+      width: 80px !important;    /* force proper size */
     height: 80px !important;
     flex-shrink: 0 !important;
     background-size: contain !important;
@@ -598,6 +608,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
