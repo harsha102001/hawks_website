@@ -20,7 +20,7 @@ body{
 } */
 .navbar{
   width: 100%;
-  height: 100px;
+  height: 14vh;
   background-color:#8086b5;
   display: flex;
   align-items:center;
@@ -29,7 +29,7 @@ body{
 
 .navlogo{
   width: 30%;
-  height: 100px;
+  height: 14vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,7 +38,7 @@ body{
 
 .logobox{
   width: 37.5%;
-  height: 100px;
+  height: 14vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -47,28 +47,28 @@ body{
   background-image: url("images/hawks_logo.png");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 100px;
-  height: 100px;
+  width: 14vh;
+  height: 14vh;
 }
 .namebox{
   display: flex;
   width:62.5%;
-  height:100px;
+  height:14vh;
   /* justify-content: center; */
   align-items: center;
 }
 .cb-name{
   color:white;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
 .nav-options{
   width: 70%;
-  height: 100px;
+  height: 14vh;
   display: flex;
   align-items: center;
-  margin-left: 80px;
+  margin-left: 5rem ;
 
 }
 
@@ -80,13 +80,13 @@ body{
 }
 
 .nav-options li {
-  margin-right: 40px; /* Optional spacing between items */
+  margin-right: 2.5rem; /* Optional spacing between items */
 }
 
 .nav-options a{
   text-decoration: none;
   color: white; /* Change to your preferred color */
-  font-size: 22px;
+  font-size: 1.37rem;
   font-weight: bold;
   display: block;
   cursor: pointer;
@@ -101,26 +101,27 @@ body{
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 1000px;
+  height: 135vh;
   background-image: url("images/basballbackground.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.overlay {
+/* .overlay {
   position: absolute;
-  top: 100px;
+  top: 6.45rem;
   left: 0;
   width: 100%;
-  height: 900px;
-  background-color: rgba(249, 248, 248, 0.3); /* 0.3 = 30% white overlay */
-}
+  height: 136vh;
+  background-color: rgba(249, 248, 248, 0.3); /* 0.3 = 30% white overlay*/
+
+
 
 .welcomebox{
   margin-top:80px ;
   width: 100%;
-  height: 150px;
+  height:21vh;
   display: flex;
   justify-content: center;
   align-items: last baseline;
@@ -130,14 +131,14 @@ body{
 
 .welcometext{
   color: red;
-  font-size: 50px;
+  font-size: 3.125rem;
   font-weight: bold;
 }
 
 .afthedlogo{
-  margin-top: 20px;
+  margin-top: 1.25rem;
   width: 100%;
-  height: 400px;
+  height: 56.022vh;
   display: flex;
   justify-content: center;
   /* align-items: center; */
@@ -147,13 +148,13 @@ body{
   background-image: url("images/hawks_logo.png");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 400px;
-  height: 400px;
+  width: 56.022vh;
+  height: 56.022vh;
 }
 
 .slogan{
   width:100%;
-  height: 200px;
+  height: 28.011vh;
   margin-top: 20px;
   display: flex;
   flex-direction: column;
@@ -163,7 +164,7 @@ body{
 }
 
 .slogan h1{
-  font-size: 50px;
+  font-size: 3.125rem;
   color: white;
   font-weight: bolder;
 }
@@ -171,7 +172,7 @@ body{
 
 .indextournamentouterbox{
   width: 100%;
-  height: 300px;
+  height: 40vh;
   display: flex;
   flex-direction: column;
   border: 2px black;
@@ -181,7 +182,7 @@ body{
 
 .tournamentlogobox{
   width: 100%;
-  height: 150px;
+  height: 21.008vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -189,8 +190,8 @@ body{
 }
 
 .mdbalogo{
-  width: 90px;
-  height: 90px;
+  width: 12.6vh;
+  height: 12.6vh;
   background-image: url(images/mdbalogo.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -198,8 +199,8 @@ body{
 }
 
 .tournamentlogo{
-  width: 120px;
-  height: 120px;
+  width: 16.807vh;
+  height: 16.807vh;
   background-image: url(images/tourlogo.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -207,8 +208,8 @@ body{
 }
 
 .hawkslogo{
-  width: 90px;
-  height: 90px;
+  width: 12.6vh;
+  height: 12.6vh;
   background-image: url(images/hawks_logo.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -216,7 +217,7 @@ body{
 
 .tournamentnameoutbox{
   width: 100%;
-  height: 150px;
+  height: 21.008vh;
   display: flex;
   flex-direction: column;
   background-image: linear-gradient(to right, rgb(243, 184, 184), rgb(176, 232, 243));
@@ -224,24 +225,24 @@ body{
 
 .tournamentnamebox{
   width: 100%;
-  height: 100px;
+  height: 14vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .tournamentnamebox h1{
-  font-size: 50px;
+  font-size: 3.125rem;
   color: red;
 }
 
 .tournamentclick{
   width: 100%;
-  height: 50px;
+  height: 7.003vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 .clickbutton {
@@ -280,9 +281,9 @@ body{
 
 .indexaboutclub{
   width: 100%;
-  height:550px;
+  height:77.031vh;
   display: flex;
-  margin-top: 30px;
+  margin-top: 2rem;
   justify-content: space-evenly;
   align-items: center;
   background-color: rgb(238, 240, 241)
@@ -290,13 +291,13 @@ body{
 }
 
 .clubimagebox{
-  width: 570px;
-  height: 500px;
+  width: 79.8vh;
+  height: 70vh;
   display: flex;
 }
 .clubimage{
-  width: 570px;
-  height: 500px;
+  width: 79.8vh;
+  height: 70vh;
   background-image: url("images/clubimage.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -304,18 +305,18 @@ body{
 }
 
 .aboutclubbox{
-  width: 570px;
-  height: 500px;
+  width: 79.8vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
 }
 
 .aboutclubbox h1{
-  font-size: 45px;
+  font-size: 2.8rem;
 }
 
 .aboutclubbox p{
-  font-size: 25px;
+  font-size: 1.5rem;
   line-height: 2;
 }
 
@@ -325,7 +326,7 @@ body{
   color: white;
   border-radius: 5px;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1rem;
 }
 .btn:hover {
   background-color: #0056b3;
@@ -334,7 +335,7 @@ body{
 
 .indexgalleryouterbox{
   width: 100%;
-  height: 550px;
+  height: 77.031vh;
   display: flex;
   flex-direction: column;
   background-color: white
@@ -342,7 +343,7 @@ body{
 
 .indexgalleryinner1{
   width: 100%;
-  height: 100px;
+  height: 14vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -351,7 +352,7 @@ body{
 
 .indexgalleryinner2{
   width: 100%;
-  height: 350px;
+  height: 48.5vh;
   display: flex;
   justify-content: center;
 }
@@ -359,7 +360,7 @@ body{
 
 .indexgalleryphotoboxouter{
   width: 80%;
-  height: 350px;
+  height: 48.5vh;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
   overflow: hidden;
   position: relative;
@@ -374,7 +375,7 @@ body{
 
 .indexgalleryphotobox1{
   width: 25%;
-  height: 350px;
+  height: 48.5vh;
   border-left: 2px solid white;
   border-right: 2px solid white;
   border-bottom: 4px solid white;
@@ -385,7 +386,7 @@ body{
 
 .indexgalleryphotobox2{
   width: 25%;
-  height: 350px;
+  height: 48.5vh;
   border-left: 2px solid white;
   border-right: 2px solid white;
   border-bottom: 4px solid white;
@@ -396,7 +397,7 @@ body{
 
 .indexgalleryphotobox3{
   width: 25%;
-  height: 350px;
+  height: 48.5vh;
    border-left: 2px solid white;
   border-right: 2px solid white;
   border-bottom: 4px solid white;
@@ -407,7 +408,7 @@ body{
 
 .indexgalleryphotobox4{
   width: 25%;
-  height: 350px;
+  height: 48.5vh;
    border-left: 2px solid white;
   border-right: 2px solid white;
   border-bottom: 4px solid white;
@@ -418,7 +419,7 @@ body{
 
 .indgalphoto1{
   width: 100%;
-  height: 350px;
+  height: 47.5vh;
   background-image: url(images/image5.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -427,7 +428,7 @@ body{
 
 .indgalphoto2{
   width: 100%;
-  height: 350px;
+  height: 47.5vh;
   background-image: url(images/image2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -436,7 +437,7 @@ body{
 
 .indgalphoto3{
   width: 100%;
-  height: 350px;
+  height: 47.5vh;
   background-image: url(images/image3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -445,7 +446,7 @@ body{
 
 .indgalphoto4{
   width: 100%;
-  height: 350px;
+  height: 47.5vh;
   background-image: url(images/image4.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -457,7 +458,7 @@ body{
 
 .gallery-track > div {
   width: 25%; /* ensures only 4 images fill the container at once */
-  height: 350px;
+  height: 47.5vh;
   border: 2px solid white;
   border-top: 4px solid white;
   border-bottom: 4px solid white;
@@ -472,7 +473,7 @@ body{
 
 .indexgalleryinner3{
   width: 100%;
-  height: 75px;
+  height: 11vh;
   display: flex;
   justify-content: center;
   align-items: last baseline;
@@ -487,7 +488,7 @@ body{
   /* margin-top: 20px; */
   background-color:#222f3d;
   color:white;
-  height:300px;
+  height:42vh;
   display:flex;
   justify-content:space-evenly;
 }
@@ -498,35 +499,35 @@ ul{
 
 ul a{
   display:block;
-  font-size:16px;
-  margin-top:10px;
-  margin-left: 20px;
+  font-size:1rem;
+  margin-top :0.625rem;;
+  margin-left: 1.25rem;
   color:#dddddd;
   line-height: 1.5;
 }
 ul p{
-    font-size:16px;
+    font-size:1rem;
     line-height: 2;
 }
 ul h4{
-  margin-left: 12px;
-  font-size: 18px;
+  margin-left: 0.75rem;
+  font-size: 1rem;
 }
 
 .footer-text {
   text-align: center;
-  font-size: 16px;
+  font-size: 1rem;
   color: white;
-  padding: 20px;
+  padding: 1.25rem;
   background-color: #222f3d;
   border-top: 1px solid white;
 }
 
 .social-link {
-  margin-left: 10px;
+  margin-left: 0.625rem;
   color: white; /* Instagram pink */
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .social-link:hover {
@@ -538,23 +539,23 @@ ul h4{
 /* About section */
 
 .about-box{
-  margin-top: 100px;
+  /* margin-top: 100px; */
   width: 100%;
-  height: 100px;
+  height: 14vh;
   display: flex;
   align-items:center;
   color: white;
   background-color: #76bf86;
-  font-size: 35px;
+  font-size: 2.18rem;
 }
 
 .about-name{
-  margin-left:100px ;
+  margin-left:6.25rem ;
 }
 
 .aboutaboutclub{
-  width: 1413px;
-  height:800px;
+  width: 100%;
+  height:112.045vh;
   display: flex;
   margin-top: 50px;
   justify-content: space-evenly;
@@ -562,24 +563,24 @@ ul h4{
 }
 
 .aboutaboutclubbox{
-  width: 570px;
-  height: 500px;
+  width: 79.832vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
 
 }
 
 .aboutaboutclubbox h1{
-  font-size: 45px;
+  font-size: 2.8rem;
 }
 
 .aboutaboutclubbox p{
-  font-size: 25px;
+  font-size: 1.56rem;
   line-height: 1.7;
 }
 
 .clubmission {
-  width: 1413px;
+  width: 100%;
   height: auto; /* Let height adjust to content */
   display: flex;
   flex-direction: column;
@@ -589,40 +590,40 @@ ul h4{
 }
 
 .clubmission h1{
-  font-size: 45px;
+  font-size: 2.8rem;
 }
 .clubmission p{
-  font-size: 25px;
+  font-size: 1.5rem;
   line-height: 1.7;
 }
 
 .coach{
-  width: 1413px;
-  height: 50px;
+  width: 100%;
+  height: 7vh;
   display: flex;
   align-items: center;
   color: black;
-  padding-left: 80px;
-  margin-top: 50px;
+  padding-left: 5rem;
+  margin-top: 3.125rem;
 }
 .coach h1{
-  font-size: 45px;
+  font-size: 2.8rem;
 }
 
 
 
 .coachbox{
   width: 100%;
-  height:400px;
+  height:56vh;
   display: flex;
-  margin-top: 50px;
+  margin-top: 3.125rem;
   justify-content: space-evenly;
 
 }
 
 .coachphotobox{
-  width:300px;
-  height:300px;
+  width:42.017vh;
+  height:42.017vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -631,8 +632,8 @@ ul h4{
 }
 
 .coachphoto{
-  width:300px;
-  height:300px;
+  width:42.017vh;
+  height:42.017vh;
   background-image: url(images/coach1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -640,8 +641,8 @@ ul h4{
 }
 
 .coachphotobox2{
-  width: 300px;
-  height: 300px;
+  width: 42.017vh;
+  height: 42.017vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -649,8 +650,8 @@ ul h4{
 }
 
 .coachphoto2{
-  width:300px;
-  height:300px;
+  width:42.017vh;
+  height:42.017vh;
   background-image: url(images/coach2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -673,42 +674,42 @@ ul h4{
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
-  height: 800px;
+  height: 112vh;
 }
 .teambox{
   width: 100%;
-  height: 500px;
+  height: 70vh;
   display: flex;
   justify-content: center;
 }
 
 .boys{
-  width:300px;
-  height: 300px;
+  width:42vh;
+  height: 42vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .boys a{
   color:blue;
-  font-size: 60px;
+  font-size: 3.75rem;
 }
 
 .girls{
-  margin-left: 250px;
-  width:300px;
-  height: 300px;
+  margin-left: 15.625rem;
+  width:42vh;
+  height: 42vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .girls a{
   color:blue;
-  font-size: 60px;
+  font-size: 3.75rem;
 }
 
 
@@ -3207,5 +3208,4 @@ ul h4{
   100% {
     transform: scale(1);
   }
-
 }
