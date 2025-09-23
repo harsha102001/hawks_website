@@ -189,28 +189,15 @@
 }
 
 
-/* Media Query for About page - tablets and mobile devices */
+/* About club content - mobile/tablet */
 @media only screen and (max-width: 768px) {
 
-  /* About section header */
-  .about-box {
-    flex-direction: column;
-    height: auto;
-    font-size: 24px;
-    text-align: center;
-    padding: 10px 0;
-  }
-
-  .about-name {
-    margin-left: 0;
-  }
-
-  /* About club content */
   .aboutaboutclub {
     width: 95%;
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+    display: flex;
   }
 
   .aboutaboutclubbox {
@@ -218,12 +205,15 @@
     height: auto;
     margin-bottom: 20px;
     display: flex;
+    flex-direction: column; /* stack h1 and p vertically */
     justify-content: center;
+    align-items: center;   /* center text */
   }
 
   .aboutaboutclubbox h1 {
     font-size: 28px;
     text-align: center;
+    margin-bottom: 10px; /* add spacing */
   }
 
   .aboutaboutclubbox p {
@@ -235,14 +225,17 @@
   /* Club mission */
   .clubmission {
     width: 95%;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 20px;
+    padding: 0 10px;
+    margin-top: 30px; /* increase spacing to avoid overlap */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .clubmission h1 {
     font-size: 28px;
     text-align: center;
+    margin-bottom: 10px;
   }
 
   .clubmission p {
@@ -251,45 +244,50 @@
     text-align: justify;
   }
 
-   /* Coach section */
-.coach {
-  width: 100%;
-  padding-left: 10px;
-  margin-top: 20px;
-  text-align: center;
+  /* Coach section */
+  .coach {
+    width: 100%;
+    padding: 0 10px;
+    margin-top: 30px; /* increase spacing to avoid overlap */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .coach h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .coachbox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .coachphotobox, .coachphotobox2 {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .coachphoto, .coachphoto2 {
+    width: 100%;
+    min-height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+  }
 }
 
-.coach h1 {
-  font-size: 28px;
-}
-
-.coachbox {
-  width: 100%;              
-  display: flex;
-  flex-direction: column;   
-  align-items: center;      
-  justify-content: center; 
-  height: auto;
-  margin-top: 20px;
-}
-
-.coachphotobox, .coachphotobox2 {
-  width: 80%;              
-  max-width: 300px;        
-  height: auto;
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: center; 
-}
-
-.coachphoto, .coachphoto2 {
-  width: 100%;
-  min-height: 250px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 10px;
-}
-}
 
 
 /* Mobile responsiveness for Team Section */
@@ -566,6 +564,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
