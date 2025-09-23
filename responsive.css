@@ -103,8 +103,8 @@
   }
 
   .mdbalogo{
-      width: 80px !important;    /* force proper size */
-    height: 80px !important;
+      width: 50px !important;    /* force proper size */
+    height: 50px !important;
     flex-shrink: 0 !important;
     background-size: contain !important;
     background-position: center !important;
@@ -608,6 +608,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
