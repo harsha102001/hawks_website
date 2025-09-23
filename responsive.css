@@ -243,6 +243,8 @@
     width: 80%;
     height: auto;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
   }
 
   .coachphoto, .coachphoto2 {
@@ -528,6 +530,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
