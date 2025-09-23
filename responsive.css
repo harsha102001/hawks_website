@@ -35,10 +35,13 @@
 
   /* Main picture adjustments */
   .mainpicture {
-    height: auto;
-    height: 500px;
-    position: relative;
-  }
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centers content vertically */
+  align-items: center;
+  position: relative; /* for overlay */
+}
 
   .overlay {
     height: 400px;
@@ -60,9 +63,11 @@
   }
 
   .slogan h1 {
-    font-size: 28px;
-    text-align: center;
-  }
+  font-size: 24px; /* smaller text for mobile */
+  text-align: center;
+  padding: 0 10px; /* optional: add padding so text doesn't touch edges */
+}
+
 
   /* Tournament section */
   .indextournamentouterbox {
@@ -567,6 +572,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
