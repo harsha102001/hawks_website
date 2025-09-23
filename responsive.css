@@ -102,14 +102,15 @@
     margin: 0 10px !important; /* optional spacing */
   }
 
-  .mdbalogo{
-      width: 50px !important;    /* force proper size */
+  .mdbalogo {
+    width: 50px !important;
     height: 50px !important;
-    flex-shrink: 0 !important;
+    min-height: 50px !important;   /* prevent collapse */
+    flex-shrink: 0 !important;     /* don’t let it shrink */
     background-size: contain !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
-    margin: 0 10px !important; /* optional spacing */
+    display: inline-block !important;
   }
 
   .tournamentlogo {
@@ -608,6 +609,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
