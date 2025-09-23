@@ -100,8 +100,8 @@
 
   .clubimagebox {
     width: 90%;
-    max-width: 500px; /* optional, keeps image from stretching too much */
-    height: auto;
+    max-width: 500px;
+    height: 300px; /* fixed height */
     display: flex;
     justify-content: center;
     margin: 10px 0;
@@ -109,7 +109,7 @@
 
   .clubimage {
     width: 100%;
-    height: 300px; /* fixed height for mobile */
+    height: 100%; /* fill the container */
     background-image: url("images/clubimage.jpg");
     background-size: cover;
     background-position: center;
@@ -579,6 +579,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
