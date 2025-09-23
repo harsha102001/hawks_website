@@ -198,6 +198,7 @@
     align-items: center;
     margin-top: 40px;
     display: flex;
+    margin-bottom: 20px;
   }
 
   .aboutaboutclubbox {
@@ -226,7 +227,7 @@
   .clubmission {
     width: 95%;
     padding: 0 10px;
-    margin-top: 100px; /* increase spacing to avoid overlap */
+    margin-top: 50px; /* increase spacing to avoid overlap */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -564,6 +565,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
