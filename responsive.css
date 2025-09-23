@@ -105,7 +105,9 @@
     height: 300px; /* fixed height */
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 10px 0;
+    flex-shrink: 0;
   }
 
   .clubimage {
@@ -580,6 +582,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
