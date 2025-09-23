@@ -204,6 +204,11 @@
     height: 250px;
   }
 
+  .indexgalleryinner3{
+    display: flex;
+    align-items: center;
+  }
+
   /* Footer section */
   .foot-panel1 {
     flex-direction: column;
@@ -609,6 +614,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
