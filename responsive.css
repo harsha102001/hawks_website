@@ -418,20 +418,22 @@
 /* Mobile Responsive for Gallery */
 @media screen and (max-width: 768px) {
 
-  .gallerymainouterbox {
+   .gallerymainouterbox {
     height: auto;
     padding: 20px 0;
     display: flex;
     flex-direction: column;
-    align-items: center; /* ✅ centers all child boxes */
+    align-items: center; /* center all children */
   }
 
   .galleryinnerbox1,
   .galleryinnerbox2 {
+    display: flex;
     flex-direction: column;
+    align-items: center;   /* ✅ add this */
     width: 95%;
     height: auto;
-    margin: 30px auto 0 auto; /* ✅ center horizontally */
+    margin: 30px auto 0 auto;
   }
 
   .galleryinnerbox1inner1,
@@ -439,10 +441,12 @@
   .galleryinnerbox1inner3,
   .galleryinnerbox2inner1,
   .galleryinnerbox2inner2 {
+    display: flex;         /* ✅ make them flex containers */
+    flex-direction: column;
+    align-items: center;   /* ✅ center contents */
     width: 100%;
     height: auto;
-    flex-direction: column;
-    margin: 0 auto 20px auto; /* ✅ center horizontally */
+    margin: 0 auto 20px auto;
   }
 
   /* Photo boxes */
@@ -457,7 +461,11 @@
   .galleryinner2inner2photobox1,
   .galleryinner2inner2photobox2 {
     height: 200px;
-    margin: 0 auto; /* ✅ centers photo boxes */
+    width: 90%;           /* ✅ ensure they don’t stretch full screen */
+    margin: 0 auto;       /* ✅ center horizontally */
+    display: flex;
+    justify-content: center; /* ✅ center image inside */
+    align-items: center;
   }
 
   /* Photos inside boxes */
@@ -471,10 +479,11 @@
   .inner2inner1photo2,
   .inner2inner2photo1,
   .inner2inner2photo2 {
-    height: 100%; /* Fill the photo box */
+    height: 100%;
+    width: auto; /* ✅ prevent stretching */
+    margin: 0 auto; /* ✅ center the actual image */
   }
 }
-
 
 
 
@@ -621,6 +630,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
