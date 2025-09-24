@@ -129,11 +129,12 @@ body{
 
 }
 
-.welcometext{
+.desktop-marquee { display: block;
   color: red;
   font-size: 3.125rem;
   font-weight: bold;
-}
+ }
+.mobile-marquee { display: none; }
 
 .afthedlogo{
   margin-top: 1.25rem;
@@ -3208,5 +3209,6 @@ ul h4{
     transform: scale(1);
   }
 }
+
 
 
