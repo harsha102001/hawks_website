@@ -282,14 +282,15 @@
   }
 
   /* Club mission */
-  .clubmission {
-    width: 100%;
-    padding: 0 10px;
-    margin-top: 100px; /* increase spacing to avoid overlap */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.clubmission {
+  width: 100%;
+  height: auto;
+  padding: 0 15px;   /* small padding on mobile */
+  margin-top: 40px;  /* ensure it drops below previous */
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  position: relative; /* override any floating/absolute */
+}
 
   .clubmission h1 {
     font-size: 28px;
@@ -615,6 +616,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
