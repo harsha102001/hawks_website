@@ -183,7 +183,7 @@
   }
 
 
-  /* Gallery section */
+   /* Gallery section */
   .indexgalleryouterbox {
     height: auto;
   }
@@ -192,10 +192,15 @@
     font-size: 28px;
   }
 
-  .indexgalleryinner2, .indexgalleryphotoboxouter {
-    width: 95%;
-    height: 250px;
-  }
+.indexgalleryinner2, 
+.indexgalleryphotoboxouter {
+  width: 100%;   /* full width */
+  max-width: 100%; 
+  height: 250px;
+  margin: 0 auto; /* center align if needed */
+  padding: 0;     /* remove unwanted padding */
+  box-sizing: border-box;
+}
 
   .gallery-track > div {
     width: 50%; /* Show 2 images at a time */
@@ -211,7 +216,6 @@
     align-items: center;
     margin-bottom: 40px;
   }
-
   /* Footer section */
   .foot-panel1 {
     flex-direction: column;
@@ -610,6 +614,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
