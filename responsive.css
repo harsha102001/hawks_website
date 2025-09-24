@@ -185,7 +185,9 @@
 
    /* Gallery section */
   .indexgalleryouterbox {
+    width:100%;
     height: auto;
+    overflow:hidden;
   }
 
   .indexgalleryinner1 {
@@ -614,6 +616,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
