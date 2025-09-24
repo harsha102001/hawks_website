@@ -256,7 +256,8 @@
     align-items: center;
     margin-top: 40px;
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    height:auto;
   }
 
   .aboutaboutclubbox {
@@ -616,6 +617,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
