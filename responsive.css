@@ -194,7 +194,7 @@
   }
 
   .indexgalleryinner2, .indexgalleryphotoboxouter {
-    width: 95%;
+    width: 100%;
     height: 250px;
   }
 
@@ -611,6 +611,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
