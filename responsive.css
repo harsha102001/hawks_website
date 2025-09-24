@@ -25,7 +25,7 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap; /* allows wrapping if too many items */
-    gap: 10px;
+    gap: 20px;
   }
 
   .nav-options li {
@@ -620,6 +620,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
