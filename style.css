@@ -2674,7 +2674,7 @@ ul h4{
 
 .gallerymainouterbox{
   width: 100%;
-  height: 1800px;
+  height: 252vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -3208,4 +3208,5 @@ ul h4{
     transform: scale(1);
   }
 }
+
 
