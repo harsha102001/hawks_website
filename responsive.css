@@ -608,8 +608,8 @@
 
   /* Tournament details */
   .tournament-details {
-    width:100%;
-    max-width:100%;
+    width:90%;
+    max-width:90%;
     height: auto;
     margin-top: 20px;
     line-height: 1.6;
@@ -637,6 +637,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
