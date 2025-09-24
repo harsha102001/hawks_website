@@ -128,13 +128,15 @@ body{
   z-index: 2;
 
 }
+.desktop-marquee { display: block; }
+.mobile-marquee { display: none; }
 
-.desktop-marquee { display: block;
+.welcometext{
   color: red;
   font-size: 3.125rem;
   font-weight: bold;
- }
-.mobile-marquee { display: none; }
+}
+
 
 .afthedlogo{
   margin-top: 1.25rem;
