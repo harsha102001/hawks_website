@@ -419,23 +419,21 @@
 @media screen and (max-width: 768px) {
 
   .gallerymainouterbox {
-    width: 100%;
     height: auto;
     padding: 20px 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    box-sizing: border-box;
+    align-items: center;  /* ✅ center everything */
   }
 
   .galleryinnerbox1, 
   .galleryinnerbox2 { 
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 100%;   /* ✅ Full width */
     height: auto;
     margin-top: 30px;
-    padding: 0 10px;
+    padding: 0 10px; /* ✅ Small padding left & right */
     box-sizing: border-box;
   }
 
@@ -448,9 +446,8 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin-bottom: 20px;
-    box-sizing: border-box;
+    align-items: center; /* ✅ center children */
   } 
 
   /* Photo boxes */
@@ -464,16 +461,15 @@
   .galleryinner2inner1photobox2, 
   .galleryinner2inner2photobox1, 
   .galleryinner2inner2photobox2 {
-    width: 100%;          /* ✅ container never larger than screen */
-    max-width: 500px;     /* ✅ center limit */
-    height: auto;
-    aspect-ratio: 16/9;   /* keeps proportion */
+    width: 100%;            /* ✅ Full width */
+    max-width: 500px;       /* ✅ Limit max width */
+    height: 200px;
     margin: 0 auto 20px auto;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    box-sizing: border-box;
+    border-radius: 8px;     /* optional */
   }    
 
   /* Photos inside boxes */
@@ -487,11 +483,10 @@
   .inner2inner1photo2, 
   .inner2inner2photo1, 
   .inner2inner2photo2 { 
-    width: 100%;          /* ✅ fill container width */
-    height: 100%;         /* ✅ match container */
+    width: 100%;           /* ✅ Fill container */
+    height: 100%;
     object-fit: cover;
     display: block;
-    margin: 0;
   }
 }
 
@@ -647,6 +642,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
