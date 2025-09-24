@@ -418,35 +418,20 @@
 /* Mobile Responsive for Gallery */
 @media screen and (max-width: 768px) {
 
-   .gallerymainouterbox {
-    height: auto;
-    padding: 20px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* center all children */
-  }
-
+  .gallerymainouterbox,
   .galleryinnerbox1,
-  .galleryinnerbox2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;   /* ✅ add this */
-    width: 95%;
-    height: auto;
-    margin: 30px auto 0 auto;
-  }
-
+  .galleryinnerbox2,
   .galleryinnerbox1inner1,
   .galleryinnerbox1inner2,
   .galleryinnerbox1inner3,
   .galleryinnerbox2inner1,
   .galleryinnerbox2inner2 {
-    display: flex;         /* ✅ make them flex containers */
+    display: flex;
     flex-direction: column;
-    align-items: center;   /* ✅ center contents */
+    align-items: center !important;   /* 🔥 force center */
+    justify-content: center !important;
     width: 100%;
-    height: auto;
-    margin: 0 auto 20px auto;
+    margin: 0 auto;
   }
 
   /* Photo boxes */
@@ -460,15 +445,15 @@
   .galleryinner2inner1photobox2,
   .galleryinner2inner2photobox1,
   .galleryinner2inner2photobox2 {
-    height: 200px;
-    width: 90%;           /* ✅ ensure they don’t stretch full screen */
-    margin: 0 auto;       /* ✅ center horizontally */
     display: flex;
-    justify-content: center; /* ✅ center image inside */
-    align-items: center;
+    justify-content: center !important; /* 🔥 force image to center */
+    align-items: center !important;
+    height: 200px;
+    width: 90%; 
+    margin: 0 auto 20px auto;  /* equal space left and right */
   }
 
-  /* Photos inside boxes */
+  /* Photos inside */
   .inner1photo1,
   .inner1photo2,
   .inner2photo1,
@@ -479,12 +464,13 @@
   .inner2inner1photo2,
   .inner2inner2photo1,
   .inner2inner2photo2 {
-    height: 100%;
-    width: auto; /* ✅ prevent stretching */
-    margin: 0 auto; /* ✅ center the actual image */
+    display: block;
+    margin: 0 auto;        /* 🔥 force center image inside */
+    max-width: 100%;       /* prevent overflow */
+    height: 100%;          /* fit container */
+    object-fit: cover;     /* neat scaling */
   }
 }
-
 
 
 /* Mobile Responsive for Achievements */
@@ -630,6 +616,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
