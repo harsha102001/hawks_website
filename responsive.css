@@ -59,16 +59,19 @@
   .overlay {
     height: 400px;
   }
+  
 
   .welcomebox {
     margin-top: 40px;
     height: auto;
   }
 
-  .welcometext {
+   .desktop-marquee { display: none; }
+  .mobile-marquee { 
+    display: block;
     font-size: 28px;
     text-align: center;
-  }
+   }
 
   .afthedlogo .alogo {
     width: 200px;
@@ -630,6 +633,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
