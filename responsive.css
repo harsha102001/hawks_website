@@ -415,17 +415,20 @@
 }
 
 
-/* ✅ Mobile Responsive for Gallery */
+/* Mobile Responsive for Gallery */
 @media screen and (max-width: 768px) {
 
 .gallerymainouterbox {
    height: auto; /* Let height adjust */ 
    padding: 20px 0;
    } 
-.galleryinnerbox1, .galleryinnerbox2 { 
+   
+.galleryinnerbox1, 
+.galleryinnerbox2 { 
   flex-direction: column; /* Stack columns on mobile */ 
-  width: 95%; height: auto; 
-  margin-top: 30px;
+  width: 95%; 
+  height: auto; 
+  margin: 30px auto 0 auto;
  }
  
  /* Inner boxes inside galleryinnerbox1 */
@@ -452,7 +455,15 @@
 .galleryinner2inner1photobox2, 
 .galleryinner2inner2photobox1, 
 .galleryinner2inner2photobox2 {
-    height: 200px; /* Reduce height for mobile */
+    width: 90%;             /* Give width */
+    max-width: 500px;       /* Prevent too wide */
+    height: 200px;          /* Controlled height */
+    margin: 0 auto 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;       /* Crop overflow neatly */
+    border-radius: 8px;
    }    
 
    /* Photos inside boxes */ 
@@ -468,10 +479,12 @@
 .inner2inner1photo2, 
 .inner2inner2photo1, 
 .inner2inner2photo2 { 
-       height: 100%; /* Fill the photo box */ 
+    width: 100%;           /* Fill container width */
+    height: 100%;          /* Fill container height */
+    object-fit: cover;     /* Keep proportion, crop overflow */
+    display: block; 
   }
  }
-
 
 
 /* Mobile Responsive for Achievements */
@@ -617,6 +630,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
