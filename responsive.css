@@ -435,7 +435,7 @@
     width: 100%;
     height: auto;
     margin-top: 30px;
-    padding: 0 5px;
+    padding: 0 10px;
     box-sizing: border-box;
   }
 
@@ -465,8 +465,9 @@
   .galleryinner2inner2photobox1, 
   .galleryinner2inner2photobox2 {
     width: 100%;          /* ✅ container never larger than screen */
-    max-width: 100%;     /* ✅ center limit */
+    max-width: 500px;     /* ✅ center limit */
     height: auto;
+    aspect-ratio: 16/9;   /* keeps proportion */
     margin: 0 auto 20px auto;
     display: flex;
     justify-content: center;
@@ -486,14 +487,14 @@
   .inner2inner1photo2, 
   .inner2inner2photo1, 
   .inner2inner2photo2 { 
-    width: 100%; 
-    max-width: 100%;         /* ✅ fill container width */
+    width: 100%;          /* ✅ fill container width */
     height: 100%;         /* ✅ match container */
     object-fit: cover;
     display: block;
-    margin: 0 auto;
+    margin: 0;
   }
 }
+
 
 @media screen and (max-width: 540px) {
   .gallerymainouterbox,
@@ -646,6 +647,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
