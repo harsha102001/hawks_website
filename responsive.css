@@ -19,7 +19,7 @@
   height: auto !important;   /* allow it to expand */
   flex: none;                /* don't force equal sizing */
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 
@@ -630,6 +630,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
