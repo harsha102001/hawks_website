@@ -66,12 +66,14 @@
     height: auto;
   }
 
-   .desktop-marquee { display: none; }
-  .mobile-marquee { 
-    display: block;
+  .desktop-marquee { display: none; }
+  .mobile-marquee { display: block; }
+
+  .welcometext {
     font-size: 28px;
     text-align: center;
-   }
+  }
+  
 
   .afthedlogo .alogo {
     width: 200px;
@@ -633,6 +635,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
