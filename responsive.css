@@ -16,8 +16,9 @@
   }
 
   .cb-name {
-    font-size: 38px;
+    font-size: 32px;
     text-align: center;
+    font-weight: bold;
   }
 
   .nav-options ul {
@@ -620,6 +621,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
