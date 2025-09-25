@@ -44,6 +44,7 @@
 
   .nav-options a {
     font-size: 14px;
+    margin:0;
   }
 
   /* Main picture adjustments */
@@ -637,6 +638,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
