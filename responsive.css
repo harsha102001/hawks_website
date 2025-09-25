@@ -378,7 +378,7 @@
   }
 
   .teambox {
-    flex-direction: column;
+    flex-direction: row;
     height: auto;
     padding: 20px 0;
   }
@@ -637,6 +637,7 @@
     font-size: 22px;
   }
 }
+
 
 
 
